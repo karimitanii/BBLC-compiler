@@ -7,7 +7,7 @@ complier description:
 2) to start declaring numbers you should write "#tejhiz" in the first line by itself
 3) to declare a number it should be in this format : ra2m i=0 and it should be written in a new line after # tejhiz
 ra2m is equivalent to int in java
-3) the variable should be a one letter name 
+4) the variable should be a one letter name 
 5)when you are finished in declaring numbers and procced to add logic to the code
 6)to start emplimenting logical BBL codeyou should write "#barmajeh" in the line after the last number you declared by itself
 7)this complier takes only an if statement which is "iza"
