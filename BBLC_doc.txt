@@ -1,0 +1,26 @@
+This project is for the course CSC320 at lau. Dr Gilber Tekli asked us to create a  BBL complier which stands for barmajeh bel lebnene that uses our native language that is lebanese to write the code and this complier take the code and complies it and creates an output file that includes assembly arm v7 code equivalent to the code written in the complier.
+
+
+
+complier description:
+1) you can use only 9 registers which means u can declare 10 numbers in the complier
+2) to start declaring numbers you should write "#tejhiz" in the first line by itself
+3) to declare a number it should be in this format : ra2m i=0 and it should be written in a new line after # tejhiz
+ra2m is equivalent to int in java
+3) the variable should be a one letter name 
+5)when you are finished in declaring numbers and procced to add logic to the code
+6)to start emplimenting logical BBL codeyou should write "#barmajeh" in the line after the last number you declared by itself
+7)this complier takes only an if statement which is "iza"
+8)after #barmajeh line on a new line you can start emplimenting the if statement
+9)if i=5: is equivatent to iza i=5: || i should be a variable declared in the tejhiz section and it can be compared to a number or another variable declared in the tejhiz section
+10)after the if statement in a new line you can write your arithmatic equation which can be addition or subtraction  j=x+i || j should be a variable declared in the tejhiz section and x,i can be numbers or variables declared in the tejhiz section
+
+
+example code:
+#tejhiz
+	ra2m i=0
+	ra2m j=0
+#barmajeh
+	iza i=5:
+		j=j+i
+
